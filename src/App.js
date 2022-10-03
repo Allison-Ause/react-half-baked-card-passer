@@ -49,32 +49,32 @@ function App() {
           player={1}
           hand={playerOneHand}
           setFrom={setFrom}
-          selectedCard={selectedCard}
+          // selectedCard={selectedCard}
           setTo={setTo}
-          setSelectedCard={setSelectedCard}
+          // setSelectedCard={setSelectedCard}
         />
         <Player
-          to={to}
+          // to={to}
           player={2}
           hand={playerTwoHand}
-          setFrom={setFrom}
-          selectedCard={selectedCard}
-          setTo={setTo}
-          setSelectedCard={setSelectedCard}
+          // setFrom={setFrom}
+          // selectedCard={selectedCard}
+          // setTo={setTo}
+          // setSelectedCard={setSelectedCard}
         />
         <Player
-          to={to}
+          // to={to}
           player={3}
           hand={playerThreeHand}
-          setFrom={setFrom}
-          selectedCard={selectedCard}
-          setTo={setTo}
-          setSelectedCard={setSelectedCard}
+          // setFrom={setFrom}
+          // selectedCard={selectedCard}
+          // setTo={setTo}
+          // setSelectedCard={setSelectedCard}
         />
         <CardList
           cards={deck}
           selectedCard={selectedCard}
-          setSelectedCard={setSelectedCard}
+          // setSelectedCard={setSelectedCard}
           setFrom={setFrom}
           player={'deck'}
         />
@@ -83,11 +83,11 @@ function App() {
         {selectedCard && (
           <ExecutePassButton
             passCard={passCard}
-            setFrom={setFrom}
+            // setFrom={setFrom}
             from={from}
             to={to}
             selectedCard={selectedCard}
-            setSelectedCard={setSelectedCard}
+            // setSelectedCard={setSelectedCard}
           />
         )}
       </section>
