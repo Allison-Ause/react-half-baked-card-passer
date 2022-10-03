@@ -4,12 +4,7 @@ import CardList from './CardList';
 
 export default function Player({
   player,
-  // setTo,
   hand,
-  // setFrom,
-  // setSelectedCard,
-  // selectedCard,
-  // to,
 }) {
   const { to, setTo } = useGame();
   return (
